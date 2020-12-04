@@ -9,9 +9,9 @@ function CreateArea(props) {
   function handleChange(event) {
     let { name, value } = event.target;
     setNoteObj((prevNote) => {
-      if (name == "title") {
+      if (name === "title") {
         return { title: value, content: prevNote.content };
-      } else if (name == "content") {
+      } else if (name === "content") {
         return { title: prevNote.title, content: value };
       }
     });
