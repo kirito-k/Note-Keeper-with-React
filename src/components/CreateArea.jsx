@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function CreateArea(props) {
   let [noteObj, setNoteObj] = useState({
     title: "",
-    content: ""
+    content: "",
   });
 
   function handleChange(event) {

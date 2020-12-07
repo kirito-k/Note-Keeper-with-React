@@ -10,7 +10,7 @@ function App() {
   function handleClick(title, content) {
     let newNote = {
       title,
-      content
+      content,
     };
 
     setNotes((prevNotes) => [newNote, ...prevNotes]);
