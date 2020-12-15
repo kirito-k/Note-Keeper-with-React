@@ -21,7 +21,7 @@ npm install
 ```
 npm start
 ```
-- Enjoy.
+- Enjoy
 
 ## Demo
 <img src="https://raw.githubusercontent.com/kirito-k/Note-Keeper-with-React/main/demo/1.gif" title="Short Demo gif" />
